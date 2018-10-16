@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TECHNICAL LANDING PAGE</title>
+<!--    -----LINKING ALL BOOTSTRAP CDN------   -->
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> 
+<!--    -----------------------    -->
+    <link rel="stylesheet" href="css/style.css">
+    
+<!--    ------LINKING TO THE ICONS CDN-------     -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+  
+<!--  ----CREATING THE NAVBAR------   -->
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <div class="container">
+<!--     -----NAVBAR CONTENTS-----   -->
+  <a class="navbar-brand" href="#">TECHY LAND</a>
+  
+<!--  ------CREATING TOGGLER FOR HAMBURGER ICON------- -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About us</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact us</a>
+      </li>
+    
+    </ul>
+    
+    <ul class="nav navbar-nav navbar-right">
+      <li class="nav-item active">
+         <a class="nav-link" href="#">SignUp<span class="sr-only">(current)</span></a>
+      </li>
+       
+<!--       ------CREATING DROPDOWN TO CONNECT WITH FB/TWITTER ACCOUNT------   -->
+       <li  class="nav-item dropdown active navbar-right">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Login
+        </a>
+        <div id="login" class="dropdown-menu social-button" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item btn btn-fb" href="#"><i class="fa fa-facebook"></i>Facebook</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item btn btn-tw" href="#"><i class="fa fa-twitter"></i>Twitter</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div> 
+
+ </nav>
+ 
+ 
+ 
+<!-- -------CREATING WRITING CONTENT--------    -->
+  
+      <div class="container center">
+         <div class="row">
+             <div class="col-md-12">
+                 <h2>
+                     <span class="fa-stack fa-lg">
+                         <i class="fa fa-square-o fa-stack-2x" aria-hidden="true"></i>
+                         <i class="fa fa-twitter fa-stack-1x" aria-hidden="true"></i>
+                     </span>
+                 </h2>
+                 <h1>TECHY LAND IS GOING TO LAND SOON....</h1>
+                 <p>Any problem , One Solution -   TECHY LAND</p>
+                 <button class="btn btn-success btn-lg "><i class="fa fa-2x fa-spinner fa-spin " aria-hidden="true"></i>
+                 <br>Join Us</button>
+             </div>
+         </div> 
+      </div>
+ 
+       
+</body>
+</html>
